@@ -150,16 +150,16 @@ export function AnimeParadoxXHomePage() {
               ))}
             </div>
           </div>
-          <div className="hidden justify-self-end lg:block">
-            <div className="relative size-72 overflow-hidden rounded-[2rem] border border-cyan-300/30 bg-slate-950/70 shadow-[0_0_70px_rgba(34,211,238,.16)]">
-              <Image
-                src={officialGameFacts.icon}
-                alt="Anime Paradox X icon"
-                fill
-                sizes="288px"
-                className="object-cover"
-              />
-            </div>
+          <div className="min-w-0 overflow-hidden rounded-xl border border-cyan-300/30 bg-black shadow-[0_0_70px_rgba(34,211,238,.16)]">
+            <iframe
+              className="aspect-video w-full"
+              src={`https://www.youtube.com/embed/${officialGameFacts.featuredVideoId}?rel=0`}
+              title="Anime Paradox X re-release gameplay by NagBlox"
+              loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
           </div>
         </Container>
       </section>
