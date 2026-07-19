@@ -1,6 +1,6 @@
 import type { DataSource } from './types';
 
-export const CHECKED_AT = '2026-07-17';
+export const CHECKED_AT = '2026-07-19';
 
 export const sources = {
   roblox: {
@@ -42,6 +42,22 @@ export const sources = {
     checkedAt: CHECKED_AT,
     confidence: 'medium',
     note: 'Secondary cross-check for the July re-release code set and old-code archive.',
+  },
+  tryHardCodes: {
+    type: 'guide_site',
+    label: 'Try Hard Guides Anime Paradox X codes',
+    url: 'https://tryhardguides.com/anime-paradox-codes/',
+    checkedAt: CHECKED_AT,
+    confidence: 'medium',
+    note: 'July 15 cross-check for BIGTHINGSSOON and the current re-release code batch.',
+  },
+  nerdsChalkCodes: {
+    type: 'guide_site',
+    label: 'NerdsChalk Anime Paradox X codes',
+    url: 'https://www.nerdschalk.com/anime-paradox-x-codes/',
+    checkedAt: CHECKED_AT,
+    confidence: 'medium',
+    note: 'July 16 secondary check for the newest code spelling and release-era status.',
   },
   redditCodes: {
     type: 'community',

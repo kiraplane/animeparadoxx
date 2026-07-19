@@ -7,7 +7,7 @@ const beginnerVideo = {
   channel: 'ArchieBloxYT',
   url: 'https://www.youtube.com/watch?v=0sadfUyWA5w',
   thumbnailUrl: 'https://i.ytimg.com/vi/0sadfUyWA5w/hq720.jpg',
-  checkedAt: '2026-07-15',
+  checkedAt: '2026-07-19',
 };
 const rereleaseVideo = {
   id: 'Z3Rq9W6tm6U',
@@ -15,7 +15,7 @@ const rereleaseVideo = {
   channel: 'NagBlox',
   url: 'https://www.youtube.com/watch?v=Z3Rq9W6tm6U',
   thumbnailUrl: 'https://i.ytimg.com/vi/Z3Rq9W6tm6U/hq720.jpg',
-  checkedAt: '2026-07-15',
+  checkedAt: '2026-07-19',
 };
 const starterVideo = {
   id: 'j9QeVACQFnU',
@@ -23,7 +23,7 @@ const starterVideo = {
   channel: 'ArchieBloxYT',
   url: 'https://www.youtube.com/watch?v=j9QeVACQFnU',
   thumbnailUrl: 'https://i.ytimg.com/vi/j9QeVACQFnU/hq720.jpg',
-  checkedAt: '2026-07-15',
+  checkedAt: '2026-07-19',
 };
 
 export const guides: Guide[] = [
