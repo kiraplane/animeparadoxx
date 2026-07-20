@@ -37,6 +37,7 @@ export const wikiNavGroups: WikiNavGroup[] = [
       { href: '/', label: 'Wiki Home' },
       { href: '/updates/re-release', label: 'Re-release Hub' },
       { href: '/guides/beginner-guide', label: 'Beginner Guide' },
+      { href: '/discord', label: 'Discord' },
       { href: '/official-links', label: 'Official Links' },
     ],
   },

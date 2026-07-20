@@ -15,6 +15,7 @@ const coreRoutes = [
   '/game-modes',
   '/guides',
   '/updates/re-release',
+  '/discord',
   '/official-links',
   '/privacy',
   '/terms',

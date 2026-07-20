@@ -28,6 +28,7 @@ export enum Routes {
   StoryMode = '/guides/story-mode',
   BestTeam = '/best-team',
   OfficialLinks = '/official-links',
+  Discord = '/discord',
 
   // auth routes
   Login = '/auth/login',
