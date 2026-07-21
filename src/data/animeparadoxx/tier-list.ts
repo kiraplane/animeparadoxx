@@ -5,6 +5,30 @@ const tierSources = [sources.pggTierList, sources.destructoidTierList];
 
 export const tierEntries: TierEntry[] = [
   [
+    'death-reaper-souls',
+    'Meta',
+    'overall',
+    'Hades combines permanent DPS acceleration, three damage abilities, and long-fight durability in the current top team.',
+  ],
+  [
+    'monkey-king-crowned',
+    'Meta',
+    'overall',
+    'Wukong brings dodge, counterattacks, kill healing, and a flexible evolved moveset to the Ragnarok core.',
+  ],
+  [
+    'qun-sha-buang-awakened',
+    'Meta',
+    'boss',
+    'Qin adds repeatable slow and damage amplification plus a 250% anti-boss active.',
+  ],
+  [
+    'amun',
+    'Meta',
+    'boss',
+    'Amun is a current Mythic boss specialist with resistance, scaling HP, and team slow utility.',
+  ],
+  [
     'storrk-resurreccion',
     'Meta',
     'overall',
@@ -107,5 +131,5 @@ export const tierMethodology = [
   'Role coverage matters: one support or farm unit can improve several carries.',
   'Current re-release usefulness is weighted above old patch statistics.',
   'Obtainability and upgrade cost matter for beginner recommendations.',
-  'Exact rankings remain provisional while the July 2026 re-release meta settles.',
+  'Update 0.5 additions use current unit tables, traits, obtainment routes, and published team composition rather than older FAQ version labels.',
 ];

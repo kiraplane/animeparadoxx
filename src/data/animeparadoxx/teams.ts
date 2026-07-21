@@ -2,6 +2,26 @@ import type { TeamBuild } from './types';
 
 export const teams: TeamBuild[] = [
   {
+    id: 'ragnarok-current-core',
+    name: 'Update 0.5 Ragnarok Core',
+    purpose: 'Current high-end general, portal, and boss coverage',
+    core: [
+      'sun-jin-wu-monarch',
+      'death-reaper-souls',
+      'monkey-king-crowned',
+      'qun-sha-buang-awakened',
+      'bulla',
+    ],
+    substitutes: [
+      'Amun when the stage is boss-heavy',
+      'Storrk (Resurreccion) when wider wave coverage is needed',
+      'Idol (Pop) or Oreheme (Sacred) when survival fails',
+    ],
+    notes:
+      'Use Eternal on Sun Jin Wu, Vampiric on Hades and Qin, and Vampiric or Eternal on Wukong. The final damage slot can rotate between Amun, Storrk, Sukuno, Megumo, or another finished carry.',
+    confidence: 'medium',
+  },
+  {
     id: 'beginner-core',
     name: 'Beginner Progression Core',
     purpose: 'Clear early story while preserving scarce resources',

@@ -73,7 +73,7 @@ export const sources = {
     url: 'https://progameguides.com/roblox/anime-paradox-tier-list-best-meta-units/',
     checkedAt: CHECKED_AT,
     confidence: 'medium',
-    note: 'Current role, unit and obtainment signal. Some copy mixes old patch statements, so rankings are cross-checked.',
+    note: 'Current role, unit, trait, team, and obtainment signal for Hades, Wukong, Qin, Amun and the Ragnarok/Secret Portal routes. Some FAQ copy mixes old patch statements, so only the internally consistent unit tables are used.',
   },
   destructoidTierList: {
     type: 'guide_site',
