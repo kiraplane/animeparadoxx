@@ -151,8 +151,19 @@ export const topics: Record<string, TopicPage> = {
     description:
       'What changed with the July 2026 Anime Paradox X return and what to do first.',
     summary:
-      'The experience is live again under the X identity. Re-check codes, recipes, banners, and rankings instead of importing old assumptions.',
+      'The experience is live again under the X identity and now carries the official Update 0.5 marker. Re-check codes, recipes, banners, and rankings instead of importing old assumptions.',
     sections: [
+      {
+        heading: 'Current official signal: Update 0.5',
+        paragraphs: [
+          'On July 21, the verified Roblox title changed to [UPDATE 0.5] Anime Paradox X. Lunmei also published the official Ragnarok Reborn video, so current guide checks now use 0.5 as the live version boundary.',
+        ],
+        bullets: [
+          'Re-open the live banner before spending gems.',
+          'Recheck evolution and Etherealize requirements in the 0.5 client.',
+          'Treat old tier lists as leads until current units are cross-checked.',
+        ],
+      },
       {
         heading: 'First-session checklist',
         paragraphs: [

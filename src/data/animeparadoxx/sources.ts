@@ -1,6 +1,6 @@
 import type { DataSource } from './types';
 
-export const CHECKED_AT = '2026-07-20';
+export const CHECKED_AT = '2026-07-21';
 
 export const sources = {
   roblox: {
@@ -125,11 +125,11 @@ export const sources = {
   },
   rereleaseVideo: {
     type: 'youtube',
-    label: 'This Anime Tower Defense is BACK — NagBlox',
-    url: 'https://www.youtube.com/watch?v=Z3Rq9W6tm6U',
+    label: 'Ragnarok Reborn — official Anime Paradox X update video',
+    url: 'https://www.youtube.com/watch?v=SRraifofNME',
     checkedAt: CHECKED_AT,
     confidence: 'medium',
-    note: 'Current re-release gameplay orientation video; used as visual context, not a permanent data source.',
+    note: 'Official Lunmei video published for the Update 0.5 / Ragnarok cycle; used as the current hero update signal.',
   },
   beginnerVideo: {
     type: 'youtube',
@@ -155,7 +155,7 @@ export const officialGameFacts = {
   xUrl: 'https://x.com/LunmeiGames',
   domain: 'https://www.animeparadoxx.wiki',
   canonicalUrl: 'https://www.animeparadoxx.wiki',
-  currentUpdate: 'July 2026 re-release',
+  currentUpdate: 'Update 0.5 / Ragnarok',
   placeId: '76806550943352',
   universeId: '7652830984',
   creatorGroupId: '35958846',
@@ -165,7 +165,7 @@ export const officialGameFacts = {
   genre: ['Strategy', 'Tower Defense', 'Auto Battle'],
   icon: '/animeparadoxx/icon.png',
   heroImage: '/animeparadoxx/media/official-1.png',
-  featuredVideoId: 'Z3Rq9W6tm6U',
+  featuredVideoId: 'SRraifofNME',
   checkedAt: CHECKED_AT,
   source: sources.roblox,
 };

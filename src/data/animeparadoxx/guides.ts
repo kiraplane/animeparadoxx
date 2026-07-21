@@ -7,15 +7,15 @@ const beginnerVideo = {
   channel: 'ArchieBloxYT',
   url: 'https://www.youtube.com/watch?v=0sadfUyWA5w',
   thumbnailUrl: 'https://i.ytimg.com/vi/0sadfUyWA5w/hq720.jpg',
-  checkedAt: '2026-07-20',
+  checkedAt: '2026-07-21',
 };
 const rereleaseVideo = {
-  id: 'Z3Rq9W6tm6U',
-  title: 'This Anime Tower Defense is BACK...',
-  channel: 'NagBlox',
-  url: 'https://www.youtube.com/watch?v=Z3Rq9W6tm6U',
-  thumbnailUrl: 'https://i.ytimg.com/vi/Z3Rq9W6tm6U/hq720.jpg',
-  checkedAt: '2026-07-20',
+  id: 'SRraifofNME',
+  title: 'Ragnarok Reborn | Anime Paradox X',
+  channel: 'Lunmei',
+  url: 'https://www.youtube.com/watch?v=SRraifofNME',
+  thumbnailUrl: 'https://i.ytimg.com/vi/SRraifofNME/hq720.jpg',
+  checkedAt: '2026-07-21',
 };
 const starterVideo = {
   id: 'j9QeVACQFnU',
@@ -23,7 +23,7 @@ const starterVideo = {
   channel: 'ArchieBloxYT',
   url: 'https://www.youtube.com/watch?v=j9QeVACQFnU',
   thumbnailUrl: 'https://i.ytimg.com/vi/j9QeVACQFnU/hq720.jpg',
-  checkedAt: '2026-07-20',
+  checkedAt: '2026-07-21',
 };
 
 export const guides: Guide[] = [
@@ -869,6 +869,12 @@ export const guides: Guide[] = [
     difficulty: 'Beginner',
     body: [
       {
+        heading: 'Update 0.5 is the current live marker',
+        paragraphs: [
+          'The verified Roblox title changed to Update 0.5 on July 21, and Lunmei published the official Ragnarok Reborn video for the same update cycle. Treat older re-release videos as system orientation, then verify banners, units, recipes, and balance in the 0.5 client.',
+        ],
+      },
+      {
         heading: 'Verify the experience',
         paragraphs: [
           'The current Roblox identity uses Place ID 76806550943352, Universe ID 7652830984, and creator group Lunmei. Avoid lookalike links and script pages.',
@@ -891,7 +897,7 @@ export const guides: Guide[] = [
       {
         question: 'When did the re-release go live?',
         answer:
-          'Current sources and Roblox activity show the July 2026 re-release; this site checked it on July 15, 2026.',
+          'The July 2026 re-release is live, and the official Roblox title advanced to Update 0.5 on July 21, 2026.',
       },
       {
         question: 'Are old guides useless?',

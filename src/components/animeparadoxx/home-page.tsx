@@ -85,7 +85,7 @@ export function AnimeParadoxXHomePage() {
           <div className="min-w-0">
             <div className="flex flex-wrap gap-2">
               <Badge className="bg-cyan-300 text-slate-950">
-                July 2026 re-release
+                Update 0.5 / Ragnarok
               </Badge>
               <Badge className="border border-violet-300/30 bg-violet-300/10 text-violet-200">
                 Unofficial community wiki
@@ -154,7 +154,7 @@ export function AnimeParadoxXHomePage() {
             <iframe
               className="aspect-video w-full"
               src={`https://www.youtube.com/embed/${officialGameFacts.featuredVideoId}?rel=0`}
-              title="Anime Paradox X re-release gameplay by NagBlox"
+              title="Anime Paradox X Update 0.5 Ragnarok Reborn by Lunmei"
               loading="lazy"
               referrerPolicy="strict-origin-when-cross-origin"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
