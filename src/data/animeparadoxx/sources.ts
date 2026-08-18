@@ -1,6 +1,6 @@
 import type { DataSource } from './types';
 
-export const CHECKED_AT = '2026-08-15';
+export const CHECKED_AT = '2026-08-17';
 
 export const sources = {
   roblox: {
@@ -9,7 +9,7 @@ export const sources = {
     url: 'https://www.roblox.com/games/76806550943352/Anime-Paradox-X',
     checkedAt: CHECKED_AT,
     confidence: 'high',
-    note: 'Source of truth for the current title, experience description, platform identity and play link.',
+    note: 'Source of truth for the current [QOL] title, experience description, platform identity and play link. The August 16 title change is an official signal without detailed public patch notes.',
   },
   robloxApi: {
     type: 'official',
@@ -17,7 +17,7 @@ export const sources = {
     url: 'https://games.roblox.com/v1/games?universeIds=7652830984',
     checkedAt: CHECKED_AT,
     confidence: 'high',
-    note: 'Confirms the Place ID, Universe ID, creator group, current title, genre and live experience metadata.',
+    note: 'Confirms the Place ID, Universe ID, creator group, [QOL] title, genre and August 16 update timestamp.',
   },
   creatorGroup: {
     type: 'official',
@@ -155,12 +155,13 @@ export const officialGameFacts = {
   xUrl: 'https://x.com/LunmeiGames',
   domain: 'https://www.animeparadoxx.wiki',
   canonicalUrl: 'https://www.animeparadoxx.wiki',
-  currentUpdate: 'Update 0.5 / Ragnarok',
+  currentUpdate: 'QOL signal after Update 0.5 / Ragnarok',
+  currentTitle: '[QOL] Anime Paradox X',
   placeId: '76806550943352',
   universeId: '7652830984',
   creatorGroupId: '35958846',
-  activePlayersAtCheck: 2393,
-  visitsAtCheck: 27501812,
+  activePlayersAtCheck: 156,
+  visitsAtCheck: 28558839,
   maxPlayers: 20,
   genre: ['Strategy', 'Tower Defense', 'Auto Battle'],
   icon: '/animeparadoxx/icon.png',

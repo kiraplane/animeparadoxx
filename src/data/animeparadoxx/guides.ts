@@ -7,7 +7,7 @@ const beginnerVideo = {
   channel: 'ArchieBloxYT',
   url: 'https://www.youtube.com/watch?v=0sadfUyWA5w',
   thumbnailUrl: 'https://i.ytimg.com/vi/0sadfUyWA5w/hq720.jpg',
-  checkedAt: '2026-08-15',
+  checkedAt: '2026-08-17',
 };
 const rereleaseVideo = {
   id: 'SRraifofNME',
@@ -15,7 +15,7 @@ const rereleaseVideo = {
   channel: 'Lunmei',
   url: 'https://www.youtube.com/watch?v=SRraifofNME',
   thumbnailUrl: 'https://i.ytimg.com/vi/SRraifofNME/hq720.jpg',
-  checkedAt: '2026-08-15',
+  checkedAt: '2026-08-17',
 };
 const starterVideo = {
   id: 'j9QeVACQFnU',
@@ -23,7 +23,7 @@ const starterVideo = {
   channel: 'ArchieBloxYT',
   url: 'https://www.youtube.com/watch?v=j9QeVACQFnU',
   thumbnailUrl: 'https://i.ytimg.com/vi/j9QeVACQFnU/hq720.jpg',
-  checkedAt: '2026-08-15',
+  checkedAt: '2026-08-17',
 };
 
 export const guides: Guide[] = [
@@ -869,9 +869,9 @@ export const guides: Guide[] = [
     difficulty: 'Beginner',
     body: [
       {
-        heading: 'Update 0.5 is the current live marker',
+        heading: 'The QOL title is the newest official marker',
         paragraphs: [
-          'The verified Roblox title changed to Update 0.5 on July 21, and Lunmei published the official Ragnarok Reborn video for the same update cycle. Treat older re-release videos as system orientation, then verify banners, units, recipes, and balance in the 0.5 client.',
+          'The verified Roblox title moved to [QOL] on August 16 after the Update 0.5 / Ragnarok cycle. Lunmei has not published a detailed public QOL list in the experience description, so use the current client for menus, banners, units, recipes and balance while keeping the official Ragnarok video as the last detailed version reference.',
         ],
       },
       {
@@ -897,7 +897,7 @@ export const guides: Guide[] = [
       {
         question: 'When did the re-release go live?',
         answer:
-          'The July 2026 re-release is live, and the official Roblox title advanced to Update 0.5 on July 21, 2026.',
+          'The July 2026 re-release is live. The official title advanced through Update 0.5 and showed a newer QOL marker on August 16, 2026.',
       },
       {
         question: 'Are old guides useless?',
