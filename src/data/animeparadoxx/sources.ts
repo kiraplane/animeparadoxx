@@ -1,6 +1,6 @@
 import type { DataSource } from './types';
 
-export const CHECKED_AT = '2026-08-20';
+export const CHECKED_AT = '2026-08-22';
 
 export const sources = {
   roblox: {
@@ -58,6 +58,14 @@ export const sources = {
     checkedAt: CHECKED_AT,
     confidence: 'medium',
     note: 'July 16 secondary check for the newest code spelling and release-era status.',
+  },
+  allThingsHowCodes: {
+    type: 'guide_site',
+    label: 'All Things How Anime Paradox X codes',
+    url: 'https://allthings.how/anime-paradox-x-codes/',
+    checkedAt: CHECKED_AT,
+    confidence: 'medium',
+    note: 'August 17 current-list cross-check for the five summer and Coral Caverns code additions, exact punctuation, and itemized rewards.',
   },
   redditCodes: {
     type: 'community',
