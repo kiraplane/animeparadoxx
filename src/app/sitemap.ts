@@ -27,7 +27,7 @@ const routes = [
   ...guides.map((guide) => `/guides/${guide.slug}`),
   ...units.map((unit) => `/units/${unit.slug}`),
 ];
-const lastModified = new Date('2026-08-22T00:00:00.000Z');
+const lastModified = new Date('2026-08-24T00:00:00.000Z');
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = getCanonicalBaseUrl();
